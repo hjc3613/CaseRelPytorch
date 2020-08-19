@@ -1,0 +1,10 @@
+TRAIN_DATA_PATH: '../data/NYT10-HRL/train_triples.json'
+EVAL_DATA_PATH: '../data/NYT10-HRL/dev_triples.json'
+TEST_DATA_PATH: '../data/NYT10-HRL/test_triples.json'
+relation2id: '../data/NYT10-HRL/rel2id.json'
+BERT_MODEL_PATH: '../distil-bert'
+SAVE_MODEL: 'model_cache/casrel.pt'
+MAX_SENTENCE_LEN: 100
+batch_size: 32
+Epoch: 100
+GPU: 1
